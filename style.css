@@ -1,0 +1,206 @@
+/* Style global */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Couleur principale du texte en noir pour améliorer la lisibilité */
+    background-color: #fff; /* Fond blanc pour un thème épuré */
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f1f1f1, #e4e4e4); /* Dégradé clair pour le fond */
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #000; /* Texte noir */
+}
+
+.highlight {
+    color: #0078d4; /* Bleu clair pour mettre en valeur le nom */
+}
+
+.subtitle {
+    margin: 20px 0;
+    color: #666; /* Gris clair pour le sous-titre */
+}
+
+.profile-pic {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #0078d4; /* Bordure bleue */
+}
+
+/* Navbar */
+.navbar {
+    background: #fff; /* Fond blanc */
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère sous la navbar */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000; /* Noir pour les liens de la navbar */
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #444; /* Gris foncé au survol */
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    background: #f9f9f9; /* Fond blanc cassé pour la section "À propos" */
+}
+
+.logo-ipi {
+    width: 100px;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 60px 0;
+    background: #f1f1f1; /* Fond clair */
+}
+
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd; /* Bordure légère */
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-color: #0078d4; /* Bordure bleue au survol */
+}
+
+/* Skills Section */
+.skills {
+    padding: 60px 0;
+    background: #f9f9f9; /* Fond clair */
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skills li {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333; /* Texte noir */
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.skills li:hover {
+    border-color: #0078d4; /* Bordure bleue au survol */
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    background: #f1f1f1; /* Fond clair */
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contact ul li {
+    margin: 10px 0;
+    color: #333; /* Texte noir */
+    font-weight: 600;
+}
+
+.contact ul li a {
+    color: #0078d4; /* Bleu clair pour les liens */
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons in Socials */
+.socials a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0078d4;
+    text-decoration: none;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #0078d4;
+    transition: transform 0.3s, background 0.3s, border-color 0.3s;
+}
+
+.socials a:hover {
+    transform: translateY(-5px);
+    background: #0078d4; /* Fond bleu clair au survol */
+    color: #fff; /* Texte blanc au survol */
+}
+
+.socials img {
+    width: 40px; /* Agrandissement du logo LinkedIn */
+    height: 40px; /* Agrandissement du logo LinkedIn */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    color: #666;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère en haut du footer */
+}
