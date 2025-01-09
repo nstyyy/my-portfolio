@@ -18,14 +18,14 @@
             <li><a href="#skills">Compétences</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </nav>    
 
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="container">
             <h1>Bonjour, je suis <span class="highlight">Natanael Burgaud</span></h1>
             <p class="subtitle">Étudiant à l'école IPI, en bachelor développeur, à Blagnac</p>
-            <img class="profile-pic" src="me.jpg" alt="Photo de Natanael Burgaud">
+            <img class="profile-pic" src="assets/me.jpg" alt="Photo de Natanael Burgaud">
         </div>
     </section>
 
@@ -36,7 +36,7 @@
             <p>
                 Je suis étudiant en deuxième année à l'École IPI, sur le campus Igensia (anciennement IGS) à Blagnac, où je suis en bachelor développeur. Je me forme au développement web et logiciel. Passionné par les nouvelles technologies, je suis constamment en quête d’apprendre et de maîtriser des outils et des langages innovants, que ce soit à l'école, ou de manière autodidacte. J'ai toujours eu davantage de préférences pour m'occuper des parties back, plutôt que des parties front.
             </p>
-            <img class="logo-ipi" src="logo-ipi.png" alt="Logo de l'école IPI">
+            <img class="logo-ipi" src="assets/logo-ipi.png" alt="Logo de l'école IPI">
         </div>
     </section>
 
@@ -77,38 +77,64 @@
     <section id="skills" class="skills">
         <div class="container">
             <h2>Compétences</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>Python/C++</li>
-                <li>Git</li>
-                <li>Linux</li>
-            </ul>
+            <div class="skills-grid">
+                <img src="assets/icons/html.png" alt="HTML" class="skill-icon">
+                <img src="assets/icons/css.png" alt="CSS" class="skill-icon">
+                <img src="assets/icons/javascript.png" alt="JavaScript" class="skill-icon">
+                <img src="assets/icons/symfony.png" alt="JavaScript" class="skill-icon">
+                <img src="assets/icons/react.png" alt="JavaScript" class="skill-icon">
+                <img src="assets/icons/angular.png" alt="JavaScript" class="skill-icon">
+                <img src="assets/icons/java.png" alt="Java" class="skill-icon">
+                <img src="assets/icons/python.png" alt="Python" class="skill-icon">
+                <img src="assets/icons/cpp.png" alt="C++" class="skill-icon">
+                <img src="assets/icons/linux.png" alt="Linux" class="skill-icon">
+                <img src="assets/icons/git.png" alt="Git" class="skill-icon">
+            </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <ul>
-                <li>📞 Téléphone : <span>07 60 20 74 17</span></li>
-                <li>📧 Email : <a href="mailto:n.burgaud.pro@gmail.com">n.burgaud.pro@gmail.com</a></li>
-            </ul>
-            <div class="socials">
-                <a href="https://github.com/nstyyy" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
-                    GitHub
-                </a>
-                <br>
-                <a href="https://www.linkedin.com/in/natanael-burgaud/" target="_blank">
-                    <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">
-                    LinkedIn
-                </a>
+            <h2>Contactez-moi</h2>
+            <p class="contact-intro">Vous avez une question, une opportunité ou souhaitez simplement échanger ? N'hésitez pas à me contacter via les informations ci-dessous ou mes réseaux sociaux.</p>
+
+            <div class="contact-grid">
+                <!-- Bloc d'informations de contact -->
+                <div class="contact-info">
+                    <h3>Informations</h3>
+                    <ul>
+                        <li>📞 Téléphone : <span>07 60 20 74 17</span></li>
+                        <li>📧 Email : <a href="mailto:n.burgaud.pro@gmail.com">n.burgaud.pro@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <!-- Bouton de téléchargement du CV -->
+                <div class="cv-download">
+                    <h3>Mon CV</h3>
+                    <a href="assets/cv.pdf" download="CV_Natanael_Burgaud.pdf" class="btn-download">
+                        Télécharger mon CV (PDF)
+                    </a>
+                </div>
+
+                <!-- Bloc des réseaux sociaux -->
+                <div class="social-links">
+                    <h3>Réseaux sociaux</h3>
+                    <a href="https://github.com/nstyyy" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+                        GitHub
+                    </a>
+                    <br>
+                    <a href="https://www.linkedin.com/in/natanael-burgaud/" target="_blank">
+                        <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn">
+                        LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer>
